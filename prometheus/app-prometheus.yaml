@@ -12,7 +12,7 @@ spec:
       helm:
         releaseName: prometheus
         valueFiles:
-          - "$values/prometheus/values.yaml"
+          - $values
     - repoURL: https://github.com/LucasRosario/web-page-deploy.git
       targetRevision: HEAD
       ref: values  
