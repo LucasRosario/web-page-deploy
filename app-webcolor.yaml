@@ -13,7 +13,7 @@ spec:
     targetRevision: HEAD
     directory:
       recurse: true
-      exclude: 'nginx/*'
+      exclude: 'k8s/nginx/*'
   destination:
     server: https://kubernetes.default.svc
     namespace: webcolor
